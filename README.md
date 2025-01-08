@@ -19,6 +19,10 @@ This repository contains a Telegram bot that fetches APRS data from [aprs.fi](ht
 
 - **Interactive Commands**:
   - Start, stop, and manage the bot via simple Telegram commands.
+  - /start - Starts the bot
+  - /stop - Stops the bot
+  - /setinterval - set the interval between messages (in seconds)
+  - /setcallsign  - set the callsign to fetch
 
 - **Debugging Tools**:
   - View active jobs and current settings for debugging and monitoring.
