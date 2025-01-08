@@ -45,7 +45,7 @@ def fetch_aprs_data(callsign: str) -> str:
             wx_entry = wx_data["entries"][0]
             return (
                 f"\U0001F30D Station: {loc_entry.get('name', 'N/A')}\n"
-                f"\U0001F551 Last packet: {loc_entry.get('time', 'N/A')} epoch\n"
+                f"\U0001F551 Local Time: {loc_entry.get('time', 'N/A')} epoch\n"
                 f"\U0001F4CD Latitude: {loc_entry.get('lat', 'N/A')}\n"
                 f"\U0001F4CD Longitude: {loc_entry.get('lng', 'N/A')}\n"
                 f"\U0001F3D4 Altitude: {loc_entry.get('altitude', 'N/A')} m\n"
